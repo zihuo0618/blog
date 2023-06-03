@@ -17,7 +17,7 @@ author: "Default Author Name"
 #########################################################################################
 theme: "minima"
 
-rss: rss
+#rss: rss
 
 kramdown:
   syntax_highlighter_opts:
