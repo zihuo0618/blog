@@ -65,7 +65,7 @@ pub mod pallet {
 
     impl <T:Config> Pallet<T> {
         pub fn create_kitty() {
-            println!("hello kitty!!!")
+            println!("hello kitty!!!  {}", T::Randomness::random());
         }
     }
 }
