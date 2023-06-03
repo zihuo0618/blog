@@ -75,6 +75,8 @@ pub mod pallet {
 
 #### main.rs  部分代码，省略了use这些
 
+**模拟runtime中做的部分事情**
+
 ```rust
 // 生成的Runtime结构
 pub struct Runtime;
@@ -103,3 +105,6 @@ fn main() {
 ```
 
 真相就是这么简单！！！
+
+
+
